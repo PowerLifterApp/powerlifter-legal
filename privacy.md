@@ -6,7 +6,7 @@ title: Privacy Policy
 
 **Effective date:** 2026-11-02  
 **App:** Powerlifter for iPhone, with its Apple Watch companion  
-**Contact:** powerlifterapp@icloud.com
+**Contact:** powerlifterapp@mail.grokbot.com
 
 ---
 
@@ -84,4 +84,4 @@ If this policy changes, we'll update this page and the effective date above. A s
 
 ## Contact
 
-Questions about privacy: **powerlifterapp@icloud.com**
+Questions about privacy: **powerlifterapp@mail.grokbot.com**

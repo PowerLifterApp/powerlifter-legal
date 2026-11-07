@@ -426,4 +426,4 @@ No. It's a log, not a coach or a medical device. You're responsible for your own
 
 ## Contact
 
-Email **powerlifterapp@icloud.com**.
+Email **powerlifterapp@mail.grokbot.com**.

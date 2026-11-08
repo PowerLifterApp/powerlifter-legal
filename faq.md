@@ -8,19 +8,29 @@ Powerlifter is a training log for conjugate and Westside-style powerlifting on i
 
 ---
 
+## Your first workout
+
+### Your first workout, step by step
+
+1. Tap **+** on Home.
+2. In **Add Exercise**, search by name (Box squat, Bench press, Deadlift) and tap the lift.
+3. Type the weight on the bar and the reps.
+4. Tap the circle at the end of the row. That logs the set as made. Missed it? Tap its mark again. (With the Dock logger, tap **Made** or **Miss**.)
+5. Add the next lift with **Exercise** at the bottom.
+6. Tap **Finish** at the top.
+7. The workout is on Home now, under the calendar. Tap it any time to read or change it.
+
+That's the whole app on most days. The rest is optional.
+
+### Five things worth knowing on day one
+
+1. **An exercise is what the lift is; a setup is how it's loaded** (bar, bands, chains). You log a setup.
+2. **Type the bar plus plates, never the band tension.** The bands belong to the setup.
+3. **The ⋯ on a lift** (or pressing and holding its name) holds everything else: change the bar or bands, **Edit all sets**, bar speed, delete.
+4. **KG / LB at the top left** is also where **Appearance**, **Data controls…** and **Help** live.
+5. **Home is your whole history.** Scroll it, or search it by lift or date.
+
 ## Getting started
-
-### What do I need to run Powerlifter?
-
-An iPhone on iOS 26 or later. The Apple Watch app needs watchOS 26 or later on an Apple Watch Series 6, SE (2nd generation), Ultra or newer, and Powerlifter Plus.
-
-### Is there an iPad, Android or Mac version?
-
-There's no iPad, Android or Mac version yet. The first release is for iPhone only; iPad and Android are planned for later.
-
-### I can't find Powerlifter in the App Store in my country.
-
-Powerlifter isn't sold in the European Union for now. It is offered in every other App Store region. Search for "conjugate" or use a direct link, since another app has a similar name.
 
 ### What happens the first time I open the app?
 
@@ -39,13 +49,24 @@ Timer only gives you the interval timer without the workout log. You can switch 
 
 Tap the **KG** or **LB** button at the top left of Home, Progress or Library. It has the unit switch, **Appearance**, **Data controls…** and **Help**. In Timer only there is no KG / LB button (no weights): tap the gear at the top left instead. It opens the same menu with **Appearance**, **Data controls…** and **Help**, and no unit switch.
 
+### How do I change the look, the logger, or the timer face?
+
+Open **Appearance** from the **KG** or **LB** menu. In Timer only, the gear opens that same menu.
+
+- **Style:** Standard, Iron or Clipboard.
+- **Logger:** Classic or Dock. Dock puts the big load up top, with Made and Miss in reach of your thumb.
+- **Timer:** Ring, Scoreboard or Pad.
+- **App icon:** the other Home Screen icons.
+
+Iron, Clipboard, Dock, Scoreboard, Pad and the other icons come with Plus. Standard, Classic and Ring do not.
+
 ### Where is help?
 
 Tap the **KG** or **LB** button at the top left of Home, Progress or Library, then **Help**. It opens this list, with a search field at the top. In Timer only, tap the gear at the top left, then **Help**.
 
 ### Can I ask Siri how to do something in Powerlifter?
 
-Yes. Say **"Ask Powerlifter how do I log bar speed"**, or swap in what you want to do. Siri reads a short answer and shows a card with the steps and an **Open in Powerlifter** button that takes you to the full answer here.
+Yes. First turn Siri on for Powerlifter: tap **Turn on** on the line at the bottom of Help (the Help row in the KG / LB menu), or **Data controls → Siri → Enable Siri integration**, and choose Allow. If you chose Don't Allow before, that row becomes **Turn on Siri in Settings**, which opens Powerlifter's page in Settings. Then say **"Ask Powerlifter how do I log bar speed"**, or swap in what you want to do. Siri reads a short answer and shows a card with the steps and an **Open in Powerlifter** button that takes you to the full answer here.
 
 You can also say **"Ask Powerlifter a question"**. Siri asks what you want to know, then looks it up. If there's no answer for it, Siri says so and Help opens with your words in the search field.
 
@@ -60,9 +81,19 @@ Tap the **KG** / **LB** button at the top left and choose **Change to pounds** o
 Yes, in two ways:
 
 - **Every time you do an exercise:** in **Library**, open the exercise and set **Default unit** to **Kilograms (kg)** or **Pounds (lbs)**. New lifts of that exercise start in that unit. **App default** follows the KG / LB button.
-- **Just today's lift:** in a workout, long-press the lift's title and tap **Use kilograms** or **Use pounds**. Only that lift changes.
+- **Just today's lift:** in a workout, tap **⋯** on the lift (or press and hold its title) and choose **Use kilograms** or **Use pounds**. Only that lift changes.
 
 Handy for kettlebells or a competition bar loaded in kilos while your gym's plates are in pounds.
+
+### Can I bring my history over from another app?
+
+Yes, with an AI assistant doing the conversion. There's no direct import from other apps. Go to **Data controls → Backup, import & export → From another app (AI chat)**:
+
+1. Export your history from the other app. A CSV, a spreadsheet or notes all work.
+2. Tap **Copy prompt**, then paste it into ChatGPT, Claude or Gemini along with your file.
+3. Save what it returns as a `.json` file, then import it with **Import a Powerlifter file…**.
+
+Check a few sessions after importing. Importing the same file again skips the days it already added, but days you logged by hand in Powerlifter are not skipped, so import old history before you start logging, or into days you haven't used. The assistant may ask you a question first (a unit, a date format); answer it rather than let it guess.
 
 ---
 
@@ -74,13 +105,35 @@ Tap **+** on Home. The logger opens on a new workout dated now. Tap **Add exerci
 
 If your coach writes the plan on paper or a whiteboard, tap the **camera** on Home instead and take a photo of it. Powerlifter reads the sheet and fills in the workout for you to check (see the question about starting a workout from a photo).
 
+### How do I add another lift to this workout?
+
+At the bottom of the workout, tap **Exercise** and pick the lift. It is added to the workout you already have open.
+
 ### How do I log a set?
 
-Type the weight and reps, then tap the check to mark it **Made**, or mark it **Miss** with a reason if you want one. Planned sets are checked off one at a time, top to bottom. Made, Miss and delete each offer **Undo** for a few seconds.
+Type the weight and reps in the entry row, then tap the circle at the end of the row to log the set as made. A made set shows a check. Tap that check to mark the set a miss, with a reason if you want one, or press and hold the circle to log a miss straight away. With the Dock logger (Plus), tap **Made** or **Miss** instead. Planned sets are checked off one at a time, top to bottom. Made, Miss and delete each offer **Undo** for a few seconds.
+
+### How do I change or delete a set?
+
+Press and hold the set, then:
+
+- **Edit set** changes that one set.
+- **Delete set** removes it. Made, Miss and delete each offer **Undo** for a few seconds.
+- **Mark as warm-up** or **Mark as working** changes what kind of set it is.
+
+To change reps or weight on every set of the lift, tap **⋯** on the lift (or press and hold its title) and choose **Edit all sets…**. **Reps** is **Keep**, **Set** or **Clear**. **Weight** is those, or **Change by** to add or subtract the same amount. **Pending sets** leaves logged sets alone. **All sets** includes them, and **Include warm-ups** adds the warm-ups. On a logged set, **Clear** leaves the reps and the weight as they are. **Set** for reps writes the reps you made, and skips a missed set. Its weight can still be changed. Tap **Apply**. Logged sets ask you to confirm, and you can undo right after.
 
 ### What weight do I type: the bar and plates, or the total with bands?
 
 Type the **bar plus plates**: the free weight. Bands and chains are part of the setup, so Powerlifter adds them for you where they matter. Your 1RMs and records always count the free weight only.
+
+### How do I log a specialty bar with bands?
+
+Tick the bar on the first **Bars** page. The straight bar stays on. **Skip and use every bar** adds every bar. To add one later, go to **Library → Gym → Bars**.
+
+Adding a bar makes setups for the main lifts that bar is used for. Another lift gets a setup the first time you log it on that bar.
+
+Start the workout and tap **Add exercise**, or **Exercise** at the bottom of a workout you already opened. Pick the lift on that bar, such as box squat on the safety squat bar. If the bands are not already part of the setup, tap **⋯** on the lift (or press and hold its title) and choose **Change bands / chains…**. Type the **bar plus plates**. Powerlifter adds the band tension.
 
 ### What does the plate loader show?
 
@@ -90,7 +143,7 @@ The plates that go on each side of the bar for the weight you're about to lift, 
 
 Bar speed is free and works with or without a meter.
 
-- **For one lift today:** long-press the lift's title and tap **Log bar speed today**. Each set gets an **m/s** field. Type the speed from your meter or your coach. Only that lift changes.
+- **For one lift today:** tap **⋯** on the lift (or press and hold its title) and choose **Log bar speed today**. Each set gets an **m/s** field. Type the speed from your meter or your coach. Only that lift changes.
 - **Every time you use a setup:** in **Library**, open the setup and set **Also log** to bar speed. Each new lift on that setup then has the m/s field.
 - **With a supported velocity meter:** turn the meter on, then tap the meter icon at the top of the workout (or **Add a bar-speed meter** on a set) and tap **Connect**. If a free meter is nearby, Powerlifter offers it once by itself. Rep speeds then fill in as you lift, and after the lift you can check them in **Bar speed**: whose reps they were, and drop a bad reading.
 - **On Apple Watch** (Plus): turn the crown to set the m/s on the set.
@@ -113,6 +166,22 @@ Home is the calendar plus your history. Scroll down or search it by lift name or
 
 Tap **Previous lifts** on the lift (the clock-and-arrow button in its header, or **Prev** in the Dock layout). You can filter to **All**, **Work** or **1RM**, and copy a past day into this workout.
 
+### How do I repeat a whole workout?
+
+On Home, press and hold the workout and tap **Copy as new…**. Pick the date and tap **Create**. The new workout has the same lifts. **Copy set structure (as planned)** and **Include weights** are off until you turn them on. Notes and feelings start fresh. A meet is copied without the Competition mark, so tap that again if the new day is a meet.
+
+### How do I reorder the lifts?
+
+Tap **⋯** on a lift (or press and hold its title) and choose **Reorder lifts**. Drag them into order. The sheet is titled **Reorder**. It shows up only when the workout has at least two lifts.
+
+### How do I delete a workout?
+
+On Home, press and hold the workout and tap **Delete**. Or open the workout, tap the tag at the top (**Session settings**), and tap **Delete workout**. It asks you to confirm. Every lift and set in that workout is removed.
+
+### How do I log a circuit?
+
+At the bottom of the workout, tap **Circuit**. The sheet is titled **Add circuit**. Pick the lifts and the rounds. With no clock, tap **Apply**. With a clock, the button reads **Apply…**, and you choose **Apply** or **Apply & start timer**. On the workout, **Finish round** checks off the round you are on. You can also check each lift yourself.
+
 ### Can I start a workout from a photo of my written plan?
 
 Yes. Tap the camera on Home and take or pick a photo of the sheet. Text recognition runs on your iPhone; the picture is never sent to us. You review every line before it becomes a workout. This is a beta feature.
@@ -122,6 +191,18 @@ Yes. Tap the camera on Home and take or pick a photo of the sheet. Text recognit
 Hold **+** on Home, or hold a date on the calendar, and choose **Injury**. Type what hurts (for example "Left shoulder"), pick the day it started, and save. Earlier injuries show as one-tap name chips so you don't retype them. It's a note in your journal: it doesn't change your workouts or hide any exercise.
 
 You don't have to say when an injury is over. **Still going** stays on until you end it, and nothing nags you. When you're ready, hold a date (or **+**) inside the injury and choose **End** with its name, or tap the injury's row and turn **Still going** off. Turning it back on reopens it if it flares up. In Year in Review, the Training card and Side by side show how many injuries touched the year and how many days you were injured (counted only for injuries you ended), and the Journal lists each one. Injuries are for your own record, not medical advice.
+
+### How do I mark a treatment day, a vacation, or a sick day?
+
+Hold **+** on Home, or hold a date on the calendar, and choose **Treatment**, **Vacation** or **Sick**. A future day offers those three only. You can train on the same day. Treatment can also come from calendars you pick, under **Data controls → Treatment calendars**.
+
+### How do I mark a meet?
+
+Open the workout and tap the tag at the top (**Session settings**). Under **Workout type**, tap **Competition**. A weigh-in row appears for the meet body weight.
+
+### Where is Review?
+
+On **Progress**, tap the calendar and clock icon at the top right. VoiceOver reads it as **Review**. The page is titled **Review**.
 
 ---
 
@@ -138,9 +219,22 @@ You log a setup. Progress can show your numbers by exercise or by the exact setu
 
 Groups are folders for browsing the library and filtering Progress, like "Squat" or "Bench". An exercise can be in more than one group. Groups don't change how anything is logged.
 
+### How do I add an exercise the library doesn't have?
+
+Open **Library**, then **Exercises**, and tap **+** (**Add exercise**). The page is titled **New Exercise**. Type the name and tap **Save**. A height, pin, board or stance that you would max on its own is its own exercise.
+
 ### How do I add bands or chains to a lift?
 
-Make a setup with them: **Library → Setups → +**, pick the exercise and bar, then add the bands or chains. You can also copy an existing setup (swipe **Copy**) and change only the bands. During a workout, long-press the lift's title and tap **Change bands / chains…**.
+Make a setup with them: **Library → Setups → +**, pick the exercise and bar, then add the bands or chains. You can also copy an existing setup (swipe **Copy**) and change only the bands. During a workout, tap **⋯** on the lift (or press and hold its title) and choose **Change bands / chains…**.
+
+### How do I switch the setup on a lift I've started?
+
+Tap **⋯** on the lift (or press and hold its title) and choose:
+
+- **Change setup…** picks a different saved setup. If sets are already logged, **Start a new lift** keeps them on this lift and puts the new setup underneath with the planned sets. **Rewrite this lift** moves every set onto the new setup. A lift in a circuit only offers rewrite.
+- **Edit setup…** changes this setup's name, its bar, and **Extra load** (ATP, Hanging, Releasers, Vest, or a name you type).
+
+Bands and chains stay on **Change bands / chains…**.
 
 ### I added a bar to my gym. Where are its setups?
 
@@ -152,7 +246,7 @@ Anything a logged workout uses can't be deleted, so your history never loses its
 
 ### I changed a bar's weight (or a setup's bands). Does my old history change?
 
-To change a bar, tap it in **Library → Gym → Bars**. Powerlifter asks first: when an edit would change numbers you've already logged, Save tells you how many lifts it touches and offers the safe choice first.
+To change a bar, tap it in **Library → Gym → Bars**. When that would change numbers you've already logged, Save asks. **Keep logged totals** leaves every logged set as it is and only updates the bar. The other button moves every logged set on that bar by the difference. Cancel leaves the sheet open. A bar nothing has been logged on saves without asking.
 
 ---
 
@@ -198,11 +292,11 @@ Estimates from your own past max-effort days: first the same exercise on other s
 
 ### Where do I see my max-effort history?
 
-**Progress → 1RM** lists every max-effort day as a ladder, with a chart. A day counts when it has five or more singles that climb. Rows with other than seven singles show **short** or **over**. You can star a plan that worked.
+**Progress → 1RM** lists every max-effort day as a ladder, with a chart. A day counts when it has five or more singles that climb. One heavy single does not. It is still a PR when you tap Made, and your best squat, bench and deadlift are on **Progress → Benchmarks**. Rows with other than seven singles show **short** or **over**. You can star a plan that worked.
 
 ### How do I load 40% of my 1RM quickly?
 
-On the lift's next empty work set, tap **Fill** (it reads **% 1RM** when the lift has no past loads) and pick a percent from 25 to 90, in 5% steps. It fills that set with that share of your max, rounded to your plates, and shows a line like "40% of 405 lb · Box squat" so you can see where it came from. To plan a whole template at one percent, like 8×8, use the **% 1RM** chip beside **Weight** on the **Set template** sheet. That is also the way in the Dock layout.
+On the lift's next empty work set, tap **Fill** and pick a percent from 25 to 90, in 5% steps. The chip reads Fill on every row, and with no past loads the panel holds only the percent strip. The pick fills that set with that share of your max, rounded to your plates, and shows a line like "40% of 405 lb · Box squat" so you can see where it came from. To plan a whole template at one percent, like 8×8, use the **% 1RM** chip beside **Weight** on the **Set template** sheet. That is also the way in the Dock layout.
 
 The max is your heaviest made single on that exercise in the last 12 months, bar and plates only. If the exercise has none, it uses the main competition lift (squat, bench or deadlift) and names it. The percents show only on barbell lifts that have a max to use. Bands and chains aren't counted.
 
@@ -212,7 +306,7 @@ The max is your heaviest made single on that exercise in the last 12 months, bar
 
 ### Why didn't my heavy single show as a PR?
 
-A PR is the most free weight you've ever made on that setup or exercise. Bands, chains and extra load don't count, and the first time you log a lift there's nothing to beat yet. PRs are judged when you tap Made during a workout in progress. You can turn the celebration off in **Appearance → Logger → Celebrate PRs**.
+A PR is the most free weight you've ever made on that setup or exercise. Bands, chains and extra load don't count, and the first time you log a lift there's nothing to beat yet. PRs are judged when you tap Made during a workout in progress. You can turn the celebration off in **Data controls → Training → Celebrate PRs**.
 
 ---
 
@@ -221,6 +315,10 @@ A PR is the most free weight you've ever made on that setup or exercise. Bands, 
 ### How do I start a timer?
 
 Tap the timer on Home's toolbar. Pick a face (**Clock**, **W/R** for work and rest, **Hold**, or **Marks**), set it, and start. To keep a timer with a lift, tap **Timer** on that lift, set it, and tap **Save to lift**; after that the lift's **▶** starts it.
+
+### How do I start an EMOM or an AMRAP?
+
+Tap the timer on Home's toolbar and pick **Clock**. The line under the faces says an EMOM is **1:00 × 10** and a 10-minute AMRAP is **10:00 × 1**. Set that and start.
 
 ### Does the timer check off my sets?
 
@@ -262,6 +360,8 @@ No. Logging, Progress (Sessions, 1RM, Benchmarks), Review, the 1RM planner, plan
 - The **Scoreboard** and **Pad** timer faces
 - The other Home Screen icons
 
+The Watch app comes with Plus. Turn the others on in **Appearance**, from the **KG** or **LB** menu. The question about changing the look names each control.
+
 ### How much is Plus, and is there a free trial?
 
 - **Monthly:** $1.99 a month, with 6 months free
@@ -272,7 +372,7 @@ These are US prices. The app shows the price for your region. The free trial is 
 
 ### How do I buy or restore Plus?
 
-**Data controls → Plus**. To get Plus back on a new phone or after reinstalling, tap **Restore purchases** there while signed into the same Apple Account.
+**Data controls → Powerlifter Plus**. To get Plus back on a new phone or after reinstalling, tap **Restore purchases** there while signed into the same Apple Account.
 
 ### Can my family use my Plus?
 
@@ -280,11 +380,11 @@ Yes. Family Sharing is on for all three plans.
 
 ### How do I cancel?
 
-Apple handles subscriptions. Cancel in **Settings → [your name] → Subscriptions** on your iPhone, or from **Data controls → Plus → Manage subscription** while a subscription is active. A subscription renews until you cancel it.
+Apple handles subscriptions. Cancel in **Settings → [your name] → Subscriptions** on your iPhone, or from **Data controls → Powerlifter Plus → Manage subscription** while a subscription is active. A subscription renews until you cancel it.
 
 ### I bought Lifetime but I still have a subscription.
 
-Buying Lifetime doesn't cancel a subscription; only you can, through Apple. Right after the purchase Powerlifter opens Apple's subscription page so you can cancel it. Plus stays on either way.
+Buying Lifetime doesn't cancel a subscription; you cancel it through Apple. Powerlifter opens Apple's subscription page right after the purchase so you can. If a family organizer approves the purchase later, the page opens then, or the next time you open Data controls; until it's cancelled, Data controls shows **Cancel subscription** on the Powerlifter Plus row. If your subscription is shared with you through Family Sharing, the family member who pays for it cancels it, and Powerlifter doesn't ask you to. Plus stays on either way.
 
 ### How do I get a refund?
 
@@ -372,11 +472,11 @@ Your log stays safe on your iPhone and you can keep training. It just stops sync
 
 ### I see the same workout twice.
 
-That usually happens when a backup is imported on a phone that also syncs through iCloud, so the history arrives twice. Delete the extra copy and the deletion syncs to your other devices. To avoid it, import a backup on one phone only, and let iCloud bring it to the rest.
+That usually happens when a backup is imported on a phone that also syncs through iCloud, so the history arrives twice. On Home, press and hold the extra copy and tap **Delete**. The deletion syncs to your other devices. To avoid it, import a backup on one phone only, and let iCloud bring it to the rest.
 
 ### Can I export my data?
 
-Yes. **Data controls → Data**:
+Yes. **Data controls → Backup, import & export**:
 
 - **Export backup…** saves a full backup you can import again.
 - **Export history spreadsheet…** saves a CSV with one row per set.
@@ -385,11 +485,11 @@ The file goes only where you choose to save or share it.
 
 ### How do I restore a backup?
 
-**Data controls → Data → Import history…** and pick a Powerlifter backup file. A day that already has a workout is skipped, so importing twice doesn't duplicate anything.
+**Data controls → Backup, import & export → Import a Powerlifter file…** and pick a Powerlifter backup file. A day that already has a workout is skipped, so importing twice doesn't duplicate anything.
 
 ### How do I delete my data?
 
-In **Data controls → Data**:
+In **Data controls → Backup, import & export**:
 
 - **Delete all session data…** removes every workout, set, max-effort plan and sheet photo, on this phone and on your other devices through iCloud. Your library (exercises, bars, gym) stays.
 - **Factory reset…** also clears your library and puts the defaults back. Your Plus purchase and body weight are kept.
@@ -403,6 +503,20 @@ Neither can be undone, so export a backup first if you might want it. To remove 
 No. There's no Powerlifter account and no Powerlifter server. Your Apple Account handles iCloud and purchases.
 
 ---
+
+## Devices and availability
+
+### What do I need to run Powerlifter?
+
+An iPhone on iOS 26 or later. The Apple Watch app needs watchOS 26 or later on an Apple Watch Series 6, SE (2nd generation), Ultra or newer, and Powerlifter Plus.
+
+### Is there an iPad, Android or Mac version?
+
+There's no iPad, Android or Mac version yet. The first release is for iPhone only; iPad and Android are planned for later.
+
+### I can't find Powerlifter in the App Store in my country.
+
+Powerlifter isn't sold in the European Union for now. It is offered in every other App Store region. Search for "conjugate" or use a direct link, since another app has a similar name.
 
 ## Privacy
 

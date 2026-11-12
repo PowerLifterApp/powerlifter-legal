@@ -27,7 +27,7 @@ That's the whole app on most days. The rest is optional.
 1. **An exercise is what the lift is; a setup is how it's loaded** (bar, bands, chains). You log a setup.
 2. **Type the bar plus plates, never the band tension.** The bands belong to the setup.
 3. **The ⋯ on a lift** (or pressing and holding its name) holds everything else: change the bar or bands, **Edit all sets**, bar speed, delete.
-4. **KG / LB at the top left** is also where **Appearance**, **Data controls…** and **Help** live.
+4. **The gear at the top left** (its small square shows KG or LB) holds the unit switch, **Appearance**, **Data controls…** and **Help**.
 5. **Home is your whole history.** Scroll it, or search it by lift or date.
 
 ## Getting started
@@ -36,7 +36,7 @@ That's the whole app on most days. The rest is optional.
 
 You choose how you'll use it: **Timer only** or **Workout logging**. If you pick Workout logging, two short pages follow:
 
-1. **Setup:** your body weight (kg or lb), and whether Powerlifter may read Apple Health and your calendars. Each one has **Not now**, and saying no never blocks the rest.
+1. **About you:** your body weight (kg or lb), and whether Powerlifter may read Apple Health and your calendars. Each one has **Not now**, and saying no never blocks the rest.
 2. **Bars:** tick the bars your gym has. The straight bar is always on. Powerlifter then makes ready-to-use setups for the main lifts on those bars.
 
 **Skip and use every bar** adds every bar and skips the questions.
@@ -47,7 +47,7 @@ Timer only gives you the interval timer without the workout log. You can switch 
 
 ### Where are the settings?
 
-Tap the **KG** or **LB** button at the top left of Home, Progress or Library. It has the unit switch, **Appearance**, **Data controls…** and **Help**. In Timer only there is no KG / LB button (no weights): tap the gear at the top left instead. It opens the same menu with **Appearance**, **Data controls…** and **Help**, and no unit switch.
+Tap the **gear** at the top left of Home, Progress or Library; its small square shows your unit, **KG** or **LB**. It has the unit switch, **Appearance**, **Data controls…** and **Help**. In Timer only (no weights) the gear has no unit square and opens the same menu with **Appearance**, **Data controls…** and **Help**, and no unit switch.
 
 ### How do I change the look, the logger, or the timer face?
 
@@ -62,11 +62,11 @@ Iron, Clipboard, Dock, Scoreboard, Pad and the other icons come with Plus. Stand
 
 ### Where is help?
 
-Tap the **KG** or **LB** button at the top left of Home, Progress or Library, then **Help**. It opens this list, with a search field at the top. In Timer only, tap the gear at the top left, then **Help**.
+Tap the **gear** at the top left of Home, Progress or Library, then **Help**. It opens this list, with a search field at the top. In Timer only, the gear is in the same place.
 
 ### Can I ask Siri how to do something in Powerlifter?
 
-Yes. First turn Siri on for Powerlifter: tap **Turn on** on the line at the bottom of Help (the Help row in the KG / LB menu), or **Data controls → Siri → Enable Siri integration**, and choose Allow. If you chose Don't Allow before, that row becomes **Turn on Siri in Settings**, which opens Powerlifter's page in Settings. Then say **"Ask Powerlifter how do I log bar speed"**, or swap in what you want to do. Siri reads a short answer and shows a card with the steps and an **Open in Powerlifter** button that takes you to the full answer here.
+Yes. First turn Siri on for Powerlifter: tap **Turn on** on the line at the bottom of Help (the Help row in the gear menu at the top left), or **Data controls → Siri → Enable Siri integration**, and choose Allow. If you chose Don't Allow before, that row becomes **Turn on Siri in Settings**, which opens Powerlifter's page in Settings. Then say **"Ask Powerlifter how do I log bar speed"**, or swap in what you want to do. Siri reads a short answer and shows a card with the steps and an **Open in Powerlifter** button that takes you to the full answer here.
 
 You can also say **"Ask Powerlifter a question"**. Siri asks what you want to know, then looks it up. If there's no answer for it, Siri says so and Help opens with your words in the search field.
 
@@ -74,13 +74,13 @@ Siri only reads Powerlifter's own written answers. Nothing is made up. The answe
 
 ### How do I switch between kilograms and pounds?
 
-Tap the **KG** / **LB** button at the top left and choose **Change to pounds** or **Change to kilograms**. Everything is stored exactly, so switching never changes your numbers. A new install starts in pounds in the US and kilograms everywhere else.
+Tap the **gear** at the top left and choose **Change to pounds** or **Change to kilograms**. Everything is stored exactly, so switching never changes your numbers. A new install starts in pounds in the US and kilograms everywhere else.
 
 ### Can one lift use kilograms while the rest of the app uses pounds?
 
 Yes, in two ways:
 
-- **Every time you do an exercise:** in **Library**, open the exercise and set **Default unit** to **Kilograms (kg)** or **Pounds (lbs)**. New lifts of that exercise start in that unit. **App default** follows the KG / LB button.
+- **Every time you do an exercise:** in **Library**, open the exercise and set **Default unit** to **Kilograms (kg)** or **Pounds (lbs)**. New lifts of that exercise start in that unit. **App default** follows the unit switch in the gear menu.
 - **Just today's lift:** in a workout, tap **⋯** on the lift (or press and hold its title) and choose **Use kilograms** or **Use pounds**. Only that lift changes.
 
 Handy for kettlebells or a competition bar loaded in kilos while your gym's plates are in pounds.
@@ -170,6 +170,10 @@ Tap **Previous lifts** on the lift (the clock-and-arrow button in its header, or
 
 On Home, press and hold the workout and tap **Copy as new…**. Pick the date and tap **Create**. The new workout has the same lifts. **Copy set structure (as planned)** and **Include weights** are off until you turn them on. Notes and feelings start fresh. A meet is copied without the Competition mark, so tap that again if the new day is a meet.
 
+### Can I plan a workout ahead of time?
+
+Yes. On Home, press and hold a past workout and tap **Copy as new…**. Pick a later day and tap **Plan**. For today, turn on **Plan it**. From a photo of your sheet, tap **Plan for…** instead of **Start workout** and pick the day. Or select a later day on the calendar and tap **+**, or hold today's date and choose **Plan for later**. A plan's day shows a hollow dot on the calendar. A plan stays out of your history, the calendar's dots, Progress and Review until you start it. Open it from its day on the calendar to change lifts or loads. On the day, Home shows it with **Open** and **Start**. **Start** starts the workout now, and logging its first set starts it too. A plan lifted on another day is dated the day you lift it. A plan you didn't start stays on its day as **Planned · missed**: press and hold it to **Move to today** or **Delete**.
+
 ### How do I reorder the lifts?
 
 Tap **⋯** on a lift (or press and hold its title) and choose **Reorder lifts**. Drag them into order. The sheet is titled **Reorder**. It shows up only when the workout has at least two lifts.
@@ -212,6 +216,8 @@ On **Progress**, tap the calendar and clock icon at the top right. VoiceOver rea
 
 - An **exercise** is what the lift *is*: Box squat, 2" deficit box squat, Floor press, Sumo deadlift. A height, pin, board count or stance makes a different exercise, because you'd look up its max separately.
 - A **setup** is how the exercise is loaded that day: which bar, which bands or chains, and any extra load. "Box squat · Safety squat bar · #2 bands" is a setup.
+
+A test that settles most cases: **would you look up its max on its own next time?** If yes, it's an exercise. Assisted is part of the setup: a pull-up with help is the Pull-up exercise on an assisted setup, so your history stays in one place. On an assisted setup the number you type is the help you used, and less help is better.
 
 You log a setup. Progress can show your numbers by exercise or by the exact setup.
 
@@ -306,7 +312,7 @@ The max is your heaviest made single on that exercise in the last 12 months, bar
 
 ### Why didn't my heavy single show as a PR?
 
-A PR is the most free weight you've ever made on that setup or exercise. Bands, chains and extra load don't count, and the first time you log a lift there's nothing to beat yet. PRs are judged when you tap Made during a workout in progress. You can turn the celebration off in **Data controls → Training → Celebrate PRs**.
+A PR is the most free weight you've ever made on that setup or exercise. Bands, chains and extra load don't count, and the first time you log a lift there's nothing to beat yet. On an assisted lift (an assisted pull-up, the inverse curl), less assistance is the PR. PRs are judged when you tap Made during a workout in progress. You can turn the celebration off in **Data controls → Training → Celebrate PRs**.
 
 ---
 
@@ -364,9 +370,9 @@ The Watch app comes with Plus. Turn the others on in **Appearance**, from the **
 
 ### How much is Plus, and is there a free trial?
 
-- **Monthly:** $1.99 a month, with 6 months free
-- **Yearly:** $9.99 a year, with 6 months free
-- **Lifetime:** $29.99 once, no trial
+- **Yearly:** $9.99 a year, with 3 months free
+- **Monthly:** $1.99 a month, with 3 months free
+- **Unlock once:** $49.99, one payment, no trial
 
 These are US prices. The app shows the price for your region. The free trial is once per Apple Account.
 
@@ -382,9 +388,9 @@ Yes. Family Sharing is on for all three plans.
 
 Apple handles subscriptions. Cancel in **Settings → [your name] → Subscriptions** on your iPhone, or from **Data controls → Powerlifter Plus → Manage subscription** while a subscription is active. A subscription renews until you cancel it.
 
-### I bought Lifetime but I still have a subscription.
+### I unlocked Plus once but I still have a subscription.
 
-Buying Lifetime doesn't cancel a subscription; you cancel it through Apple. Powerlifter opens Apple's subscription page right after the purchase so you can. If a family organizer approves the purchase later, the page opens then, or the next time you open Data controls; until it's cancelled, Data controls shows **Cancel subscription** on the Powerlifter Plus row. If your subscription is shared with you through Family Sharing, the family member who pays for it cancels it, and Powerlifter doesn't ask you to. Plus stays on either way.
+Unlocking Plus once doesn't cancel a subscription; you cancel it through Apple. Powerlifter opens Apple's subscription page right after the purchase so you can. If a family organizer approves the purchase later, the page opens then, or the next time you open Data controls; until it's cancelled, Data controls shows **Cancel subscription** on the Powerlifter Plus row. If your subscription is shared with you through Family Sharing, the family member who pays for it cancels it, and Powerlifter doesn't ask you to. Plus stays on either way.
 
 ### How do I get a refund?
 
@@ -512,7 +518,7 @@ An iPhone on iOS 26 or later. The Apple Watch app needs watchOS 26 or later on a
 
 ### Is there an iPad, Android or Mac version?
 
-There's no iPad, Android or Mac version yet. The first release is for iPhone only; iPad and Android are planned for later.
+Yes for Android: Powerlifter has an Android app too. There's no iPad or Mac version yet. An iPad version is planned, along with layouts made for the larger inner screen of iPhone Duo.
 
 ### I can't find Powerlifter in the App Store in my country.
 
